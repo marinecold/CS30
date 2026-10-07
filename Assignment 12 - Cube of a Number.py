@@ -1,3 +1,8 @@
+#Lorenzo Clarke
+#203245@gscs.ca
+#Assignment 12 - Cube of a Number
+
+
 string = ""
 
 def setup():
