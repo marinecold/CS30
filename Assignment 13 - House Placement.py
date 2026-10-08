@@ -13,7 +13,5 @@ def draw_tree(x,y):
     fill(1, 255, 0)
     circle(x,y,10)
 
-
-
 def draw_house(x,y):
     return
