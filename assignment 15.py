@@ -30,6 +30,14 @@ def key_pressed():
         
 def draw():
     
+    hamburgers = 0
+    
+    if pattiespack * 8 > bunspack * 12:
+        hamburgers = bunspack * 12
+        
+    if bunspack * 12 >= pattiespack * 8:
+        hamburgers = pattiespack * 8
+    
     background(125)
     
     text("Pack(s) of patties:", 50, 100)
@@ -40,8 +48,5 @@ def draw():
     text(bunspack, 150, 120)
     text(hamburgers, 200, 200)
     
-    if pattiespack x 8 > bunspack x 12:
-        hamburgers = bunspack
-        
-    if bunspack x 12 => pattiespack x 8:
-        hamburgers = pattiespack
+    
+    
